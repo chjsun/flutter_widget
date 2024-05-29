@@ -39,6 +39,8 @@ dependencies:
   get: ^4.6.6
   code_preview: ^0.1.5
   scrollview_observer: ^1.19.1
+  oktoast: ^3.4.0
+  any_syntax_highlighter: ^0.0.13
 
 dev_dependencies:
   flutter_test:

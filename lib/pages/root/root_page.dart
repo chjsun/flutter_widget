@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/modules/category/button/text_button.dart';
 import 'package:flutter_widget/modules/home/home/home_page.dart';
 import 'package:flutter_widget/modules/home/menu/menu_page.dart';
-import 'package:flutter_widget/widget/code.dart';
-import 'package:get/get.dart';
-
-import 'root_logic.dart';
+import 'package:flutter_widget/modules/home/simulator/simulator_page.dart';
 
 class RootPage extends StatelessWidget {
   const RootPage({super.key});
@@ -15,13 +11,14 @@ class RootPage extends StatelessWidget {
     return const Scaffold(
       body: Row(
         children: [
-          SizedBox(
-            width: 200,
-            child: MenuPage(),
-          ),
+          MenuPage(),
           Expanded(
             child: HomePage(),
-          )
+          ),
+          SizedBox(
+            width: 375,
+            child: SimulatorPage(),
+          ),
         ],
       ),
     );

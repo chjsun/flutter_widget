@@ -2,9 +2,11 @@
 /// time: 2024/5/7 13:24
 /// desc: $desc$
 import 'package:flutter/material.dart';
+import 'package:flutter_widget/modules/example/base/base_binding.dart';
 import 'package:flutter_widget/modules/home/home/home_binding.dart';
 import 'package:flutter_widget/modules/home/home/home_page.dart';
 import 'package:flutter_widget/modules/home/menu/menu_binding.dart';
+import 'package:flutter_widget/modules/home/simulator/simulator_binding.dart';
 import 'package:flutter_widget/pages/root/root_binding.dart';
 import 'package:flutter_widget/pages/root/root_page.dart';
 import 'package:flutter_widget/routes/routes.dart';
@@ -18,6 +20,8 @@ class RoutesPage {
       RootBinding(),
       HomeBinding(),
       MenuBinding(),
+      SimulatorBinding(),
+      BaseBinding(),
     ]),
   ];
 }

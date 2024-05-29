@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget/routes/routes.dart';
 import 'package:flutter_widget/routes/routes_page.dart';
 import 'package:get/get.dart';
+import 'package:oktoast/oktoast.dart';
 import 'package:url_strategy/url_strategy.dart';
 
 void main() {
